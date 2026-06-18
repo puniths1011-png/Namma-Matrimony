@@ -1,0 +1,1 @@
+- [Rishtey app routing](rishtey-routing.md) — isLoggedIn state in App.tsx; all /dashboard/* routes protected; useLocation from wouter used inside components for navigation after login/logout.

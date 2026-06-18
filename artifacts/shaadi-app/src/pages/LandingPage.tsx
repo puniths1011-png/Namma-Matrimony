@@ -1,4 +1,4 @@
-import React from "react";
+import LandingNavbar from "@/components/landing/LandingNavbar";
 import Hero from "@/components/landing/Hero";
 import HowItWorks from "@/components/landing/HowItWorks";
 import FeaturedProfiles from "@/components/landing/FeaturedProfiles";
@@ -14,12 +14,13 @@ interface LandingPageProps {
 export default function LandingPage({ setIsLoggedIn }: LandingPageProps) {
   return (
     <div className="min-h-screen bg-background text-foreground font-sans flex flex-col" data-testid="landing-page">
-      <Hero />
-      <HowItWorks />
-      <FeaturedProfiles />
-      <SuccessStories />
-      <WhyRishtey />
-      <RegisterCTA setIsLoggedIn={setIsLoggedIn} />
+      <LandingNavbar setIsLoggedIn={setIsLoggedIn} />
+      <div id="hero"><Hero setIsLoggedIn={setIsLoggedIn} /></div>
+      <div id="how-it-works"><HowItWorks /></div>
+      <div id="featured-profiles"><FeaturedProfiles setIsLoggedIn={setIsLoggedIn} /></div>
+      <div id="success-stories"><SuccessStories /></div>
+      <div id="why-rishtey"><WhyRishtey /></div>
+      <div id="register"><RegisterCTA setIsLoggedIn={setIsLoggedIn} /></div>
       <Footer />
     </div>
   );
