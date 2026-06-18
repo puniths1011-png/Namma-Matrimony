@@ -1,0 +1,38 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "7Cf-m1gqooQ_y3GEHcAzY"
+uri = "file://artifacts/shaadi-app/src/assets/images/profile1.png"
+type = "image"
+title = "Professional headshot Indian woman"
+
+[[generated]]
+id = "GVyDO8e_h3dMX8dmQxG39"
+uri = "file://artifacts/shaadi-app/src/assets/images/profile2.png"
+type = "image"
+title = "Professional headshot Indian woman"
+
+[[generated]]
+id = "NaPmsA_MZuJQLxswVn793"
+uri = "file://artifacts/shaadi-app/src/assets/images/profile3.png"
+type = "image"
+title = "Professional headshot Indian woman"
+
+[[generated]]
+id = "HwWcxAbKSnPnzABaUkQzA"
+uri = "file://artifacts/shaadi-app/src/assets/images/profile4.png"
+type = "image"
+title = "Professional headshot Indian woman"
+
+[[generated]]
+id = "VSOxvk0WSxrdkzsDZjwj1"
+uri = "file://artifacts/shaadi-app/src/assets/images/profile5.png"
+type = "image"
+title = "Professional headshot Indian woman"
+
+[[generated]]
+id = "qTiH6ObgNRYExUpDge93s"
+uri = "file://artifacts/shaadi-app/src/assets/images/profile6.png"
+type = "image"
+title = "Professional headshot Indian woman"
