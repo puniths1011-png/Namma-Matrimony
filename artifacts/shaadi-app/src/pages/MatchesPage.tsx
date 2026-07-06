@@ -12,13 +12,13 @@ import { allProfiles } from "@/data/profiles";
 interface MatchesPageProps {
   setIsLoggedIn: (value: boolean) => void;
   sentInterests: number[];
-  setSentInterests: (ids: number[]) => void;
+  setSentInterests: (value: number[] | ((prev: number[]) => number[])) => void;
   acceptedConnections: number[];
-  setAcceptedConnections: (ids: number[]) => void;
+  setAcceptedConnections: (value: number[] | ((prev: number[]) => number[])) => void;
   shortlisted: number[];
-  setShortlisted: (ids: number[]) => void;
+  setShortlisted: (value: number[] | ((prev: number[]) => number[])) => void;
   recentlyViewed: number[];
-  setRecentlyViewed: (ids: number[]) => void;
+  setRecentlyViewed: (value: number[] | ((prev: number[]) => number[])) => void;
 }
 
 export interface Filters {
